@@ -1,0 +1,10 @@
+<% layout('layouts/boilerplate')%> 
+<!-- 不用/,不用.ejs -->
+    <h1>All Campgrounds</h1>
+    <h3><a href="/campgrounds/new">Add New Campground</a></h3>
+    <ul>
+        <% for (let campground of campgrounds) {%>
+            <li><a href="/campgrounds/<%= campground._id %>"><%= campground.title %></a></li>
+        <% }%> 
+        <!-- //不要缺/号 -->
+    </ul>
