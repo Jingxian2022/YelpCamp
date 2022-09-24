@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\views",
+    "\\views\\campgrounds",
+    "\\views\\layouts",
+    "\\views\\partials"
+  ],
+  "SelectedNode": "\\views\\campgrounds\\index.ejs",
+  "PreviewInSolutionExplorer": false
+}
